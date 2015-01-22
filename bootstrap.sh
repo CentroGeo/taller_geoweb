@@ -3,6 +3,7 @@
 sudo apt-get update
 sudo apt-get install -y python-pip
 sudo pip install mapfish
+sudo pip install mapfish.plugin.client
 sudo rm -f /etc/postgresql/9.3/main/pg_hba.conf
 sudo rm -f /etc/postgresql/9.3/main/postgresql.conf
 sudo cp /vagrant/pg_conf/postgresql.conf /etc/postgresql/9.3/main/postgresql.conf

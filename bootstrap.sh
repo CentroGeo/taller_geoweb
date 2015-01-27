@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 
 sudo apt-get update
+sudo apt-get install postgresql-server-dev-all
 sudo apt-get install -y python-pip
 sudo pip install mapfish
+sudo pip install psycopg2
 sudo pip install mapfish.plugin.client
 sudo pip install 'Tempita>=0.5.1'
 sudo rm -f /etc/postgresql/9.3/main/pg_hba.conf

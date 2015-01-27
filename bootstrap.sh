@@ -2,6 +2,7 @@
 
 sudo apt-get update
 sudo apt-get install postgresql-server-dev-all
+sudo apt-get install python-dev
 sudo apt-get install -y python-pip
 sudo pip install mapfish
 sudo pip install psycopg2
